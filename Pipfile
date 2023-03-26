@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+clean-text = "==0.6.0"
+spacy = "*"
+scikit-learn = "*"
+scipy = "*"
+pattern = "*"
+unidecode = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
