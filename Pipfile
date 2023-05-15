@@ -17,6 +17,7 @@ h5py = "*"
 keras = "*"
 google-cloud-pubsub = "*"
 psycopg2 = "*"
+flask = "*"
 
 [dev-packages]
 
