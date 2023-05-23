@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - master
+  repository_dispatch:
+    types:
+      - trigger-build
 
 env:
   CONTAINER_REGISTRY: ${{ vars.CONTAINER_REGISTRY }}
