@@ -12,7 +12,7 @@ on:
 env:
   CONTAINER_REGISTRY: ${{ vars.CONTAINER_REGISTRY }}
   SERVICE_NAME: ai-api
-  REGION: asia-east1
+  REGION: asia-southeast1
   IMAGE_NAME: ai-api
   IMAGE_TAG: ${{ github.sha }}
   PROJECT_ID: ${{ vars.PROJECT_ID }}
