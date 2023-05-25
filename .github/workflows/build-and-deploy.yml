@@ -1,5 +1,4 @@
-
-name: Build and Deploy Content Preparing
+name: Build and Deploy AI Predicter
 
 on:
   push:
